@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+}
+
+code {
+  background: #d0d0d5;
+}
+
+canvas {
+  margin: auto;
+  background-color: rgb(47, 46, 64);
+  border-width: 7px;
+  border-color:#9999a6;
+  border-style: inset;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#log-window {  
+  width: 647px;
+  height: 245px;
+  resize: none;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+  }
+  #log-window {
+    margin-left: 14px;
+    width: 220px;
+    height: 485px;
+    resize: none;
+  }
+}
+
+
